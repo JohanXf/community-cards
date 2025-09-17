@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { Sparkles, Users, Award } from "lucide-react";
+import { Sparkles, Twitter, Award } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { CommunityCard, CardData } from "./CommunityCard";
 
@@ -42,8 +42,8 @@ export function HeroSection({ onGetStarted }: HeroSectionProps) {
               transition={{ duration: 0.5, delay: 0.2 }}
               className="inline-flex items-center gap-2 glass px-4 py-2 rounded-full text-sm"
             >
-              <Sparkles className="w-4 h-4 text-primary" />
-              <span className="text-foreground">Exclusive Community Recognition</span>
+              <Twitter className="w-4 h-4 text-primary" />
+              <span className="text-foreground">Exclusive X (Twitter) Community Recognition</span>
             </motion.div>
 
             {/* Main Heading */}
@@ -60,8 +60,8 @@ export function HeroSection({ onGetStarted }: HeroSectionProps) {
                 </span>
               </h1>
               <p className="text-xl text-muted-foreground max-w-lg">
-                Exclusive digital collectibles for community members with 500+ followers. 
-                Showcase your contribution and unlock your rarity tier.
+                Exclusive digital collectibles for X (Twitter) community members with 500+ followers. 
+                Automatically verify your eligibility and claim your rarity tier.
               </p>
             </motion.div>
 
@@ -73,16 +73,16 @@ export function HeroSection({ onGetStarted }: HeroSectionProps) {
               className="flex flex-wrap gap-6 justify-center lg:justify-start"
             >
               <div className="flex items-center gap-2 text-sm">
-                <Users className="w-4 h-4 text-primary" />
-                <span className="text-muted-foreground">500+ Followers Required</span>
+                <Twitter className="w-4 h-4 text-primary" />
+                <span className="text-muted-foreground">X (Twitter) Integration</span>
               </div>
               <div className="flex items-center gap-2 text-sm">
                 <Award className="w-4 h-4 text-secondary" />
-                <span className="text-muted-foreground">5 Rarity Tiers</span>
+                <span className="text-muted-foreground">Auto Verification</span>
               </div>
               <div className="flex items-center gap-2 text-sm">
                 <Sparkles className="w-4 h-4 text-primary" />
-                <span className="text-muted-foreground">Limited Edition</span>
+                <span className="text-muted-foreground">5 Rarity Tiers</span>
               </div>
             </motion.div>
 
@@ -98,8 +98,8 @@ export function HeroSection({ onGetStarted }: HeroSectionProps) {
                 size="lg"
                 className="bg-gradient-primary hover:shadow-primary transition-all duration-300 font-semibold text-lg px-8"
               >
-                <Sparkles className="w-5 h-5 mr-2" />
-                Claim Your Card
+                <Twitter className="w-5 h-5 mr-2" />
+                Claim with X
               </Button>
               <Button
                 variant="outline"

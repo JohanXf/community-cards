@@ -45,7 +45,7 @@ const Index = () => {
               Community <span className="text-primary">Statistics</span>
             </h2>
             <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
-              Track the growth of our exclusive community and see how members are contributing across different platforms.
+              Track the growth of our exclusive X (Twitter) community and see how members are contributing with their verified follower counts.
             </p>
           </motion.div>
 
@@ -78,8 +78,8 @@ const Index = () => {
               Ready to Join the <span className="text-secondary">Elite?</span>
             </h2>
             <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
-              Prove your community impact with 500+ followers and get your exclusive Community Card. 
-              Your role and rarity will be automatically determined based on your contribution.
+              Connect your X (Twitter) account to automatically verify your 500+ followers and claim your exclusive Community Card. 
+              Your role and rarity will be determined based on your follower count and bio.
             </p>
           </motion.div>
 
@@ -128,7 +128,7 @@ const Index = () => {
           <div className="text-center space-y-4">
             <h3 className="text-xl font-bold text-foreground">Community Cards</h3>
             <p className="text-muted-foreground text-sm max-w-2xl mx-auto">
-              Recognizing and celebrating community members who make a difference. 
+              Recognizing and celebrating X (Twitter) community members who make a difference. 
               Join the exclusive club of contributors with 500+ followers.
             </p>
             <div className="flex justify-center space-x-8 text-sm text-muted-foreground">
